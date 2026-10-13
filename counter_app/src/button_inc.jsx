@@ -1,8 +1,10 @@
 
 
-function ButtonInc(){
+function ButtonInc({onIncreament}){
+ 
+   
     return(
-      <button>click here to increament</button>
+      <button onClick={onIncreament}>click here to increament</button>
     );
     
 }
